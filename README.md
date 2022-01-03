@@ -1,4 +1,6 @@
 # ZopSmartiOSTraining22
+
 Branching Strategy:
 
-Feature
+We will have 3 types of branches.
+
