@@ -1,3 +1,8 @@
-# ZopSmartiOSTraining2
-this is  number 4
+
+# ZopSmartiOSTraining22
+
+Branching Strategy:
+
+We will have 3 types of branches.
+
 
