@@ -81,12 +81,15 @@ class PremiumUser: UserService, UserBenefits {
     func adFreeVideo() {
        print("You have now got ad-free streaming. This is a premium feature.")
     }
+    
     func backgroundPlay() {
        print("You can play videos in the background. This is a premium feature.")
     }
+    
     func watchOffline() {
        print("You can download and watch videos offline. This is a premium feature.")
     }
+    
     func listenedToOnYouTubeMusic() {
        print("You can check if you have listened to the song on YouTube Music. This is a premium feature.")
     }
