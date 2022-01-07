@@ -1,0 +1,36 @@
+protocol Userbenefits {
+       
+            func Greeting()
+            func Time()
+            
+}
+
+class Regular : Userbenefits {
+    
+                 func Greeting() {
+                 
+                            print("Good Morning")    
+                 }
+}
+
+class Premium : Userbenefits {
+    
+                 func Time() {
+                        
+                            print("It's 12:00 AM")
+                 }
+}
+
+class User:Regular,Premium {
+      
+      
+                func Show() {
+                       
+                            print("You are in User Class")
+                }
+}
+
+var Myclass=User()
+Myclass.Greeting()
+Myclass.Time()
+Myclass.Show()
